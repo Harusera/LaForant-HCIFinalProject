@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Coding/style.css">
+    <title>LaForant | Register Now !!</title>
+</head>
+<body>
+    <div class="top" id="top">
+        <a href="home.html"><img class="logo" src="../asset/Logo.png" alt=""></a>
+
+        <div class="drop">
+        <button onclick="myFunction()" class="dropmenu">Navigation</button>
+            <div id="dropdown" class="dropdowncontent">
+            <a class="content" href="../Coding/home.html">Home</a>
+            <a class="content" href="../Coding/maps.html">Maps</a>
+            <a class="content" href="../Coding/agent.html">Agents</a>
+            <a class="content" href="../Coding/sysreq.html">System Requirements</a>
+            <a class="content" href="../Coding/reg.html">Pre-Register</a>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="sign">
+        <p>Pre-Registration</p>
+        <br>
+        <br>
+        <p>
+            Are you ready to be the champion ?
+            <br>
+            Download this game by click the Sign-up button!
+            <br>
+                <div class="sign-redirect">
+                    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+                </div>
+        </p>
+        <br>
+    </div>
+    
+    
+
+<div id="id01" class="modal">
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <div class="sign-header">
+          <p class="sign-title">Sign Up</p>
+          <p class="sign-order">Please fill in this form to register for LaForant's Closed Beta Test.</p>
+      </div>
+      
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="username"><b>Username</b></label>
+      <input type="text" placeholder="Username" name="username" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Password" name="psw" required>
+      
+      <label for="dob"><b>Date of birth</b></label>
+      <input type="date" placeholder="Date of Birth" name="dob" required>
+
+      <br>
+      <br>
+
+      <label for="national"><b>Nationality</b></label>
+      <input type="text" placeholder="Nationality" name="national" required>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> I agree to <a href="">Terms and Condition</a>
+      </label>
+
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">
+            Sign Up
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+    
+    
+</body>
+
+<div class="footer">
+    <div class="footer1">
+              <div class="social-media">
+                <p class="footer-title">Contact Us</p>
+
+                <div class="social-media-logo">
+              
+                  <div class="fb">
+                      <a href="">
+                          <img class= "social-logo"src="../asset/Facebook.PNG" alt="">
+                          <span class="social-link">LaForant Official Facebook</span>
+                      </a>
+                  </div>
+
+                  <div class="ig">
+                    <a href="">
+                          <img class= "social-logo" src="../asset/Instagram.PNG" alt="">
+                          <span class="social-link">@LaForantFPS</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="supportsection">
+                  <p class="footer-title">Support Services</p>
+                  <div class="supp">
+                      <a href=""><p>Privacy Notice</p></a>
+                      <a href=""><p>Term of Service</p></a>
+                      <a href=""><p>Cookie Preference</p></a>
+                  </div>
+              </div>
+    </div>
+
+    <div class="footer2">
+      <span class="footer2-text-color-w">&copy 2021, </span>
+      <span class="footer2-text-color-o">LaForant </span>
+      <span class="footer2-text-color-w">All Right Reserved</span>
+      <br>
+    </div>
+  
+  </div>
+
+</body>
+<script src="../Coding/js.js"></script>
+</html>   
